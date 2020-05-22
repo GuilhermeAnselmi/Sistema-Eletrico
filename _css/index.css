@@ -17,8 +17,66 @@ div#interface{
     padding: 15px;
 }
 
-header#cabecalho{
-    border-bottom: 1px solid black;
+section#corpo{
+    padding-top: 70px;
+}
+
+nav#menu{
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px black;
+    padding: 5px;
+    position: absolute;
+    top: 171px;
+    left: 400px;
+}
+
+nav#menu:hover{
+    margin-right: 80px;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+
+nav#menu li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(91, 80, 253);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: Arial;
+    color: black;
+    transition: background-color 0.4s;
+    transition: padding-left 0.4s;
+    transition: padding-right 0.4s;
+    transition: padding-top 0.4s;
+    transition: padding-bottom 0.4s;
+    transition: font-size 0.4s;
+}
+
+
+nav#menu li:hover{
+    background-color: rgb(130, 130, 240);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+nav#menu a:hover{
+    color: white;
 }
 
 footer#rodape{
