@@ -2,7 +2,7 @@
 
 body{
     font: normal 12pt Arial;
-    background: url("../tecno.jpg") no-repeat;
+    background: url("../img/tecno.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
