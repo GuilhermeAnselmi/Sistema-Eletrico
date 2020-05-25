@@ -10,7 +10,7 @@ body{
 div#interface{
     width: 700px;
     text-align: center;
-    background-color: rgba(77, 224, 224, 0.945);
+    background-color: rgba(77, 224, 224, 0.815);
     box-shadow: 2px 2px 4px black;
     margin: 30px auto 20px auto;
     border-radius: 4px;
@@ -18,7 +18,8 @@ div#interface{
 }
 
 section#corpo{
-    padding-top: 70px;
+    padding-top: 20px;
+    border-top: 1px solid black;
 }
 
 nav#menu{
@@ -27,8 +28,9 @@ nav#menu{
     box-shadow: 2px 2px 4px black;
     padding: 5px;
     position: absolute;
-    top: 171px;
-    left: 400px;
+    background-color: rgba(102, 102, 168, 0.37);
+    top: 30px;
+    left: 20px;
 }
 
 nav#menu:hover{
@@ -38,11 +40,9 @@ nav#menu:hover{
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
-    
 }
 
 nav#menu li{
-    display: inline-block;
     padding-left: 30px;
     padding-right: 30px;
     background-color: rgb(91, 80, 253);
@@ -51,6 +51,8 @@ nav#menu li{
     font-size: 25px;
     font-family: Arial;
     color: black;
+    margin-right: 30px;
+    margin-bottom: 20px;
     transition: background-color 0.4s;
     transition: padding-left 0.4s;
     transition: padding-right 0.4s;
@@ -62,8 +64,8 @@ nav#menu li{
 
 nav#menu li:hover{
     background-color: rgb(130, 130, 240);
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
     font-size: 30px;
