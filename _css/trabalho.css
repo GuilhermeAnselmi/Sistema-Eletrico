@@ -1,0 +1,7 @@
+article#profissional{
+    border-top: 1px solid black;
+}
+
+article#projeto{
+    border-top: 2px dashed black;
+}

@@ -2,7 +2,7 @@
 
 body{
     font: normal 12pt Arial;
-    background: url("../img/tecno.jpg") no-repeat;
+    background: url("../_img/tecno.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -54,8 +54,6 @@ nav#menu li{
     margin-right: 30px;
     margin-bottom: 20px;
     transition: background-color 0.4s;
-    transition: padding-left 0.4s;
-    transition: padding-right 0.4s;
     transition: padding-top 0.4s;
     transition: padding-bottom 0.4s;
     transition: font-size 0.4s;
@@ -64,8 +62,6 @@ nav#menu li{
 
 nav#menu li:hover{
     background-color: rgb(130, 130, 240);
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
     font-size: 30px;

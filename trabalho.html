@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <title>Sistema Elétrico</title>
         <link rel="stylesheet" href="_css/index.css">
+        <link rel="stylesheet" href="_css/trabalho.css">
     </head>
 
     <body>
@@ -12,7 +13,7 @@
             <header id="cabecalho">
                 <hgroup>
                     <h1>Sistema Elétrico</h1>
-                    <h2>Criando técnologia</h2>
+                    <h2>A pratica não é igual a teoria... É melhor!</h2>
                 </hgroup>
 
                 <nav id="menu">
@@ -28,8 +29,71 @@
             
                 <section id="corpo">
                     <article>
-                        <h1>Conheça Meu Trabalho</h1>
-                        <p>Meu rabalho</p>
+                        <h1>Projetos caseiros</h1>
+
+                        <article id="projeto">
+                            <h2>Projeto Servidor</h2>
+                            <p>Projeto servidor teve como intuito desenvolver um servidor caseiro utilizando uma placa de notebook antigo e um arduino nano.</p>
+
+                            <p>Foi utilizadoo HD do notebook e seu monitor para visualizar conteudo quase como um <b>"mainframe"</b>.</p>
+
+                            <img src="_img/servidor1.jpg" width=250>
+                            <img src="_img/servidor2.jpg" width=250>
+                            <img src="_img/servidor3.jpg" width=250>
+                            <img src="_img/servidor4.jpg" width=250>
+
+                            <p>A função principal do arduino é de monitorar a temperatura e fazer o devido cuidado para o refrigeramento de todo o equipamento. O servidor conta com 2 sistema de refrigeração, o priario e o secundario, o primario ativa 4 cooler's, 2 deles joga ar frio direto nos pontos que mais aquecem, os outros 2 retiram o ar quente que tende a subir no sistema, o segundo sistema de refriggeração ativa uma pequena turbina. Em caso de superaquecimento o arduino detecta a alta temperatura e envia um alerta sonoro e visual, caso não seja resfriado dentro de um tempo pré-determinado, o sistema automaticamente efetua o desligamento geral apra evitar danos.</p>
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/4QdsO5n0_mE?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </article>
+
+                        <article id="projeto">
+                            <h2>Fonte de Bancada</h2>
+
+                            <p>Uma fonte de bancada simples construida com base em uma fonte padrão de um gabinete de desktop de mesa convencional.</p>
+
+                            <img src="_img/fonte1.jpg" width=200 height=200>
+                            <img src="_img/fonte2.jpg" width=200 height=200>
+                            <img src="_img/fonte3.jpg" width=200 height=200>
+
+                            <p>A fonte tem o fio verde que passa por um interruptor (o fio verde é quem ativa ou desativa o funcionamento da fonte), temos dois led's onde um deles é o standby e o outro é o led de ativação. Há 4 saidas de energia e duas GND, cada saida tem sua tensão, sendo elas -12, 3.3, 5 e 12 volts.</p>
+
+                            <p>Internamente a fonte esta ligada a um resistor de 5W de potencia para poder consumir elergia quando ligada, pois o mesmo funciona melhor tendo um consumo minimo de energia (serve para melhorar o funcionamento da fonte).</p>
+                        </article>
+                    </article>
+
+                    <article id="profissional">
+                        <h1>Projetos Profissionais</h1>
+
+                        <article id="projeto">
+                            <h2>Projeto Carretel</h2>
+
+                            <p>O Projeto Carretel é um motor com uma placa controladora de velocidade, ele tem o intuito de fazer um pequeno rolo de fita dupla face ser enrolado pela fita. Com o controlador, pode ser ajustada a velocidade e a quantidade de voltas que será dada, fazendo com que possa saber quantos melhor de fita seá enrolada.</p>
+
+                            <p>Foi utilizado um arduin nano para fazer o controle de todo o sistema, incluindo a Ponte H, que não é nada mais que o controlador L298N para controlar o motor.</p>
+
+                            <img src="_img/bobina_prototipo.jpg" width=350 height=250>
+
+                            <p>O projeto foi colocado dentro de uma carcaça impresso na <b>Impressora 3D</b> (que ficou a merce do cliente a carcaça).</p>
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/4RmRO_m7jBY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </article>
+
+                        <article id="projeto">
+                            <h2>Projeto Esguicho</h2>
+
+                            <p>O projeto esguicho foi encomendado com um proposito sigiloso cujo nem mesmo a mim foi passado a função principal.</p>
+
+                            <p>Ele tem 4 solenoides para controle de saida d'agua, 4 sensores de presenças (cada um responsavel por um solenoide), quando qualquer sensor é ativado, um solenoide respectivo abre e aciona uma bomba d'agua de 12v para enviar um pequeno jato d'agua.</p>
+
+                            <img src="_img/esguicho.jpg" width=650>
+
+                            <p>Diferente da maioria dos meus projetos, esse não foi utilizado nenhuma plataforma programativa, o mesmo é composto apenas por controladores reles de 5v. Alem dos reles, o sistema todo é ativado por um rele receptor IR (quando enviado um feiche de infravermelho, o rele altera seu estado, ligando ou desligando o sistema todo).</p>
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/sOsVOiKbw2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ABL9Gs_cSSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </article>
                     </article>
                 </section>
 
